@@ -16,7 +16,7 @@ make_wellbeing_charts <- function(data, mygroup, likert_scale) {
                    "Disagree", "Strongly disagree")
   }else if (likert_scale == "agreementNA" ){
     my_levels <- c("Strongly agree", "Agree", "Slightly agree",
-                 "Slightly disagree", "Disagree", "Slightly disagree",
+                 "Slightly disagree", "Disagree", "Strongly disagree",
                  "Don't know/ NA")
   }else if (likert_scale == "class" ){
     my_levels <- c("FY/ freshman", "Sophomore", "Junior", "Senior")
