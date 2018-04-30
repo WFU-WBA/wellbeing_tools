@@ -28,9 +28,10 @@ make_wellbeing_charts <- function(data, mygroup, likert_scale) {
   }else if (likert_scale == "gpa" ){
     my_levels <-c("A+", "A or A-", "B+", "B", "B-", "C+", "C", "C-", "D or lower")
   }else if (likert_scale == "housing" ){
-    my_levels <-c("First-year student", "Culture-specific", "Special academic",
+    my_levels <-c("First-year student", "Culture-specific", "Special academic", 
              "Other special interest", "Residence hall", "Apartment", "Fraternity or sorority",
-             "Other residential", "Apartment house", "Other")
+             "Other residential", "At home with family", "Off-campus fraternity or sorority", 
+                  "Rented apartment or house", "Other")
   }else if (likert_scale == "likely" ){
     my_levels <-c("Very likely", "Moderately likely", "Slightly likely", "Slightly unlikely",
             "Moderately unlikely", "Very unlikely")
