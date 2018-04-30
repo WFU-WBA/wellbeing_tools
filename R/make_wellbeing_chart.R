@@ -36,7 +36,8 @@ make_wellbeing_charts <- function(data, mygroup, likert_scale) {
     my_levels <-c("Very likely", "Moderately likely", "Slightly likely", "Slightly unlikely",
             "Moderately unlikely", "Very unlikely")
   }else if (likert_scale == "loans" ){
-    my_levels <- c("Less than $10,000","$10,000 - $19,000", "$20,000 - $29,999", "$30,000 - $39,999", "$40,000 or more")
+    my_levels <- c("Less than $10,000","$10,000 - $19,000", "$20,000 - $29,999", 
+                   "$30,000 - $39,999", "$40,000 or more", "Not sure")
   }else if (likert_scale == "military" ){
     my_levels <- c("None", "ROTC, cadet, midshipman at service academy", "Reserve or National Guard",
               "Active Duty", "Discharched vet")
